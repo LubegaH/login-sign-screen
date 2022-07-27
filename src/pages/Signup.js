@@ -1,15 +1,15 @@
 import Header from '../components/Header';
-import Login from '../components/Login';
+import Signup from '../components/Signup';
 const SignupPage = () => {
   return (
     <>
       <Header
-        heading='Log in to Truesoil'
-        paragraph='Do not have an account yet?'
-        linkName='Signup'
-        linkUrl='/signup'
+        heading='Signup for an Account'
+        paragraph='Already have an account?'
+        linkName='Login'
+        linkUrl='/'
       />
-      <Login />
+      <Signup />
     </>
   );
 };
